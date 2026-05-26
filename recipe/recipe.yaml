@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.2"
+  version: "0.1.3"
   name: r-ywidgets
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/QuantStack/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: fd799b2195d944b6d5bc3da6d4d0bd8203a642641649099fa8052bf1894906fe
+  sha256: c0816a77eab57ae2e339303608f07e9240c1348b0e47fcd20cc39418e4cd7501
 
 build:
   number: 0
